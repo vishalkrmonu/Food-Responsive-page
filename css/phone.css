@@ -1,0 +1,111 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navbar::before{
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar ul li a{
+overflow: hidden;
+padding: 0px 20px;
+font-size: .9rem;
+padding-bottom: 5px;
+}
+/* home */
+#Home{
+    height: 352px;
+    padding: 3px 70px;
+}
+#Home::before{
+    height: 390px;
+   
+}
+#Home h2{
+    margin-top: 89px; /* if navbar ul li a are  un fixed than margin-top=-109px*/
+    padding: 32px 2px
+}
+#Home p{
+    font-size: 12px;
+}
+/* service */
+#service{
+    flex-direction: column;
+}
+#service .box{
+/* padding: 5px; */
+/* margin: 4px 4px; */
+margin-top: -77px;
+margin-bottom: 88px;
+padding: 14px 3px;
+
+}
+#service .box p{
+    font-size: 13px;
+    }
+h3{
+    /* margin: 6px; */
+    margin-top: 6px;/*if navbar ul li a are fixed than margin-top=-81px*/
+}
+/* client section */
+#client{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    /* width: 56px;
+    padding: 2px 2px; */
+    margin-top: -15px;
+}
+#client-section::before{
+    width: 100%;
+    margin-top:  -129px;
+}
+#client img{
+    width: 55px;
+    /* padding: 12px -5px; */
+    height: 34px;
+   width: 27px;
+}
+#client-section h1 {
+    padding: 24px 1px;
+    margin-top: -5px;
+    font-size: 23px;
+    font-family: system-ui;
+}
+.client-item{
+    padding: 28px;
+}
+
+#contact h1{
+    margin-top: -18px;
+}
+/* contact */
+#contact{
+    margin-top: -196px;
+   
+}
+#contact::before{
+    margin: -9px;
+    opacity: .7;
+}
+#contact .box form{
+    width: 80%;
+}
+/* fooltar */
+/* utiliti class */
+.h-primary{
+    font-size: 20px;
+}
+.btn{
+    font-size: 8px;
+    padding: 10px;
+    margin-top: 19px;
+}
+footer {
+    background: black;
+    color: aliceblue;
+    padding: 7px 0px;
+    margin-top: -65px;
+}
